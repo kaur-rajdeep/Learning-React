@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Styles for counter App */
+.counter{
+  display: grid;
+  justify-content: center;
+  margin:15%;
+}
+
+.counter button{
+  background-color: #9784e7;
+  color:white;
+  border-radius: 15px;
+  padding:7px;
+  border:none;
+  cursor:pointer;
+  font-size: larger;
+}
+
+.counter p{
+  font-size:x-large;
+  font-weight: bold;
+  margin-left:40px;
+}
+
+/* Styles for converter app */
+.converter{
+  display: grid;
+  justify-content: center;
+  margin:15%;
+}
+
+.converter input{
+  padding:4px;
+  border-color:rgb(37, 163, 119);
+  background-color: rgb(179, 249, 225);
+  border-radius: 15px;
+  font-size: larger;
+}
+
+.converter p{
+  font-size:x-large;
+  margin-left:30px;
+}
