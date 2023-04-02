@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Converter from './converter';
-
+// import Converter from './converter';
+import Counter from './counter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Converter/>,
+  <Counter/>,
   document.getElementById('root')
 );
 

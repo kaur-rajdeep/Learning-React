@@ -14,12 +14,11 @@ code {
 
 /* Styles for counter App */
 .counter{
-  display: grid;
-  justify-content: center;
   margin:15%;
 }
 
 .counter button{
+  display:inline-flex;
   background-color: #9784e7;
   color:white;
   border-radius: 15px;
@@ -27,12 +26,15 @@ code {
   border:none;
   cursor:pointer;
   font-size: larger;
+  margin:2px;
+
 }
 
 .counter p{
+  justify-content: center;
   font-size:x-large;
   font-weight: bold;
-  margin-left:40px;
+  margin-left:100px;
 }
 
 /* Styles for converter app */
