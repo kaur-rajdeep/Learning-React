@@ -56,3 +56,33 @@ code {
   font-size:x-large;
   margin-left:30px;
 }
+
+/* Styles for Random Quote Generator */
+.rq{
+  display: grid;
+  justify-content: center;
+  margin-top:50px;
+  }
+
+
+.q{
+  color:#cd0674;
+  font-family:cursive;
+  font-size: larger;
+  font-weight: bold;
+  padding: 15px;
+
+}
+
+.rq button{
+  display:inline-flex;
+  background-color: #ff7dee;
+  color:white;
+  border-radius: 15px;
+  padding:7px;
+  border:none;
+  cursor:pointer;
+  font-size: larger;
+  margin:2px;
+  max-width: fit-content;
+}
