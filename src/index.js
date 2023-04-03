@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 // import Converter from './converter';
 // import Counter from './counter';
-import RandomQuotes from './quoteGenerator';
+//import RandomQuotes from './quoteGenerator';
+import ContactManager from './ContactManager';
+
+const contacts=["James Smith","Britney Spear ", "Bruce Wayne"];
+
+    
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RandomQuotes/>,
+  <ContactManager data={contacts} />,
   document.getElementById('root')
 );
 

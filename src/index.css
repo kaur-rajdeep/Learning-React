@@ -86,3 +86,31 @@ code {
   margin:2px;
   max-width: fit-content;
 }
+
+/* Styles for contact Manager */
+
+
+input,button{
+  display:inline-flex;
+  background-color: #9784e7;
+  color:white;
+  border-radius: 15px;
+  padding:7px;
+  border:none;
+  cursor:pointer;
+  font-size: larger;
+  margin:2px;
+}
+
+.list{
+  list-style:none;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #fcbdf3;
+  margin:3px;
+  max-width:fit-content;
+  overflow:hidden;
+  padding:5px;
+
+}
