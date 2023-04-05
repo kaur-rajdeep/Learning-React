@@ -114,3 +114,56 @@ input,button{
   padding:5px;
 
 }
+
+/* Styles for todo app */
+.todos{
+  display:block;
+  margin:25%;
+  color:#060003;
+  font-size:larger;
+  font-weight:800;
+
+ 
+}
+.todos .add{
+  border-radius: 50%;
+  padding:8px;
+  font-weight: bold;
+
+}
+
+.todos .Input-field{
+  display: flex;
+}
+
+.todos input{
+  background-color:#cafaff;
+  color:#070707;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.todo{
+  display:flex;
+}
+
+.todos .listItem{
+  background-color: #86f8ca;
+  min-width: 200px;
+  padding:6px;
+  margin:4px;
+  border-radius: 15px;
+  color:#000000;
+  font-size: large;
+  font-weight: 600;
+}
+
+.todos ul{
+  list-style: none;
+}
+.todos .delete{
+  border-radius: 50%;
+  background-color: rgb(245, 132, 132);
+  padding:5px;
+  font-weight: bolder;
+}

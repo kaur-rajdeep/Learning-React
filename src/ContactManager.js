@@ -1,13 +1,9 @@
 import React, {useState} from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 
 function AddPersonForm(props){
-    const[person, setPerson] = useState('');
+    const[person, setPerson] = useState("");
 
-    function handleChange(e){
-        setPerson(e.target.value);
-    }
     function handleSubmit(e){
         if(person!==''){
             props.handleSubmit(person);
@@ -17,7 +13,9 @@ function AddPersonForm(props){
     }
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder='Add new Contact' onChange={handleChange} value={person}/>
+            <input type="text" placeholder='Add new Contact' onChange={e=>{
+                setPerson(e.target.value);
+            }} value={person}/>
             <button type="submit">Add</button>
             </form>
     );
