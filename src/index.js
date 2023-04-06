@@ -4,13 +4,14 @@ import reportWebVitals from './reportWebVitals';
 // import Converter from './converter';
 // import Counter from './counter';
 //import RandomQuotes from './quoteGenerator';
-// import ContactManager from './ContactManager';
+//import ContactManager from './ContactManager';
 import TodoApp from './Todo';
 //const contacts=["John"];
 
     
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // <ContactManager data={contacts} />,
   <TodoApp/>,
   document.getElementById('root')
 );
